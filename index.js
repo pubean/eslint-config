@@ -1,13 +1,11 @@
 module.exports = {
   extends: [
     'airbnb',
+    'plugin:promise/recommended',
     'prettier',
     'prettier/react',
-    'plugin:promise/recommended',
     'plugin:compat/recommended',
     'plugin:jest/recommended',
-    'plugin:node/recommended',
-    'plugin:security/recommended',
   ],
   parserOptions: {
     ecmaVersion: 2019,
@@ -34,9 +32,7 @@ module.exports = {
       },
     ],
   },
-  plugins: ['html', 'markdown', 'graphql', 'security'],
   settings: {
-    'html/html-extensions': ['.html', '.ejs'],
     polyfills: ['fetch', 'promises', 'url', 'requestanimationframe'],
   },
 };
