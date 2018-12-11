@@ -21,7 +21,4 @@ module.exports = {
       },
     ],
   },
-  settings: {
-    polyfills: ['fetch', 'promises', 'url', 'requestanimationframe'],
-  },
 };

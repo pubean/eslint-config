@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nake-app",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Naked eslint shareable config for react app",
   "main": "index.js",
   "license": "MIT",
