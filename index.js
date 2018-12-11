@@ -1,24 +1,13 @@
 module.exports = {
-  extends: [
-    'airbnb',
-    'plugin:promise/recommended',
-    'prettier',
-    'prettier/react',
-    'plugin:compat/recommended',
-    'plugin:jest/recommended',
-  ],
+  extends: ['airbnb', 'prettier', 'prettier/react', 'plugin:compat/recommended'],
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
+    ecmaFeatures: { jsx: true },
   },
   env: {
     browser: true,
     es6: true,
-    node: true,
-    jest: true,
     serviceworker: true,
   },
   rules: {
