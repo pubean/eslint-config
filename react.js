@@ -1,4 +1,4 @@
-const rules = require('./rules/common');
+const rules = require('./rules/base');
 const rulesReact = require('./rules/react');
 
 module.exports = {
