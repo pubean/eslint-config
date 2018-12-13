@@ -7,12 +7,14 @@ This ESLint config is extended from both [airbnb](https://github.com/airbnb/java
 ## Installation
 
 ```bash
-# Install with npm
-$ npm i -D eslint-config-nake-app
+# Install with npx
+$ npx install-peerdeps --dev eslint-config-nake-app
 
 # Install with yarn
-$ yarn add --dev eslint-config-nake-app
+$ yarn add --dev eslint prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-compat eslint-config-nake-app
 ```
+
+_Use npx to install peerdeps automatically._
 
 ## Usage
 
