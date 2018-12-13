@@ -68,9 +68,9 @@ For wechat miniProgram project.
 
 _This environment can't support browser compatibility linter_
 
-### Browser compatibility linter
+## Browser compatibility linter
 
-First, add browsers that we support in your `package.json` or config format that [https://github.com/browserslist/browserslist](browserslist) supported.
+First, add browsers that we support in your `package.json` or config file that [browserslist](https://github.com/browserslist/browserslist) supports.
 
 ```json
 {
