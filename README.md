@@ -103,6 +103,25 @@ yarn add whatwg-fetch es6-promise
 }
 ```
 
+## eslintConfig in package.json
+
+I like moving `.eslintrc` and `.eslintignore` file from project root to `package.json`, this makes my project cleaner. If you want to respect `.gitignore` as `eslintIgnore`, make your eslint script with `--ignore-path .gitignore` is a good idea.
+
+```json
+{
+  "scripts": {
+    "eslint": "eslint src --ext .js --ignore-path .gitignore",
+    "eslint:fix": "eslint src --ext .js --ignore-path .gitignore --fix"
+  },
+  "eslintConfig": {
+    "extends": ["nake-app"],
+    "settings": {
+      "polyfills": ["fetch", "promises"]
+    }
+  }
+}
+```
+
 ## Extend
 
 You can override any rules with your own prefs.

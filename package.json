@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-nake-app",
   "version": "0.2.6",
-  "description": "Naked eslint shareable config for react app",
+  "description": "Naked eslint shareable config for web app",
   "main": "index.js",
   "license": "MIT",
   "repository": "laozhu/eslint-config-nake-app",
@@ -16,11 +16,6 @@
     "wxapp",
     "compatibility"
   ],
-  "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0",
-    "yarn": ">=1.10.0"
-  },
   "dependencies": {
     "eslint": "^5.10.0",
     "eslint-config-airbnb": "^17.1.0",
