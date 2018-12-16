@@ -1,6 +1,6 @@
 # eslint-config-nake-app
 
-> Naked eslint shareable config for react app
+> Naked eslint shareable config for web app
 
 This ESLint config is extended from both [airbnb](https://github.com/airbnb/javascript) and [prettier](https://prettier.io/) styles. It uses [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) plugin for browser compatibility linter. It provides four extend options for different environment.
 
@@ -9,9 +9,6 @@ This ESLint config is extended from both [airbnb](https://github.com/airbnb/java
 ```bash
 # Install with npx
 $ npx install-peerdeps --dev eslint-config-nake-app
-
-# Install with yarn
-$ yarn add --dev eslint prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-compat eslint-config-nake-app
 ```
 
 _Use npx to install peerdeps automatically._
@@ -51,6 +48,8 @@ For vanilla javascript project with no framework.
 ```
 
 ### React
+
+For react project, the same as default config.
 
 ```json
 {
