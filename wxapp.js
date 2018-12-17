@@ -1,4 +1,5 @@
 const rules = require('./rules/base');
+const rulesWxapp = require('./rules/wxapp');
 
 module.exports = {
   extends: ['airbnb-base', 'prettier'],
@@ -18,5 +19,5 @@ module.exports = {
     getApp: true,
     getCurrentPages: true,
   },
-  rules,
+  rules: { ...rules, ...rulesWxapp },
 };

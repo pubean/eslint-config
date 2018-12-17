@@ -1,4 +1,5 @@
 const rules = require('./rules/base');
+const rulesWeb = require('./rules/web');
 
 module.exports = {
   extends: ['airbnb-base', 'prettier', 'plugin:compat/recommended'],
@@ -11,5 +12,5 @@ module.exports = {
     es6: true,
     serviceworker: true,
   },
-  rules,
+  rules: { ...rules, ...rulesWeb },
 };

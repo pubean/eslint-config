@@ -110,8 +110,8 @@ I like moving `.eslintrc` and `.eslintignore` file from project root to `package
 ```json
 {
   "scripts": {
-    "eslint": "eslint src --ext .js --ignore-path .gitignore",
-    "eslint:fix": "eslint src --ext .js --ignore-path .gitignore --fix"
+    "eslint": "eslint src --ext .js --ignore-path .gitignore; exit 0",
+    "eslint:fix": "eslint src --ext .js --ignore-path .gitignore --fix; exit 0"
   },
   "eslintConfig": {
     "extends": ["nake-app"],

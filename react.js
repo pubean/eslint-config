@@ -1,4 +1,5 @@
 const rules = require('./rules/base');
+const rulesWeb = require('./rules/web');
 const rulesReact = require('./rules/react');
 
 module.exports = {
@@ -13,8 +14,5 @@ module.exports = {
     es6: true,
     serviceworker: true,
   },
-  rules: {
-    ...rules,
-    ...rulesReact,
-  },
+  rules: { ...rules, ...rulesWeb, ...rulesReact },
 };

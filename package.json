@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nake-app",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Naked eslint shareable config for web app",
   "main": "index.js",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "compatibility"
   ],
   "dependencies": {
+    "confusing-browser-globals": "^1.0.5",
     "eslint": "^5.10.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
