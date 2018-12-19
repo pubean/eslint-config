@@ -1,6 +1,6 @@
-# eslint-config-nake-app
+# @pubean/eslint-config
 
-> Naked eslint shareable config for web app
+> ESLint shareable config for Pubean Inc.
 
 This ESLint config is extended from both [airbnb](https://github.com/airbnb/javascript) and [prettier](https://prettier.io/) styles. It uses [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) plugin for browser compatibility linter. It provides four extend options for different environment.
 
@@ -8,7 +8,7 @@ This ESLint config is extended from both [airbnb](https://github.com/airbnb/java
 
 ```bash
 # Install with npx
-$ npx install-peerdeps --dev eslint-config-nake-app
+$ npx install-peerdeps --dev @pubean/eslint-config
 ```
 
 _Use npx to install peerdeps automatically._
@@ -23,7 +23,7 @@ For react project.
 
 ```json
 {
-  "extends": ["nake-app"]
+  "extends": ["@pubean"]
 }
 ```
 
@@ -33,7 +33,7 @@ For old ES5 project.
 
 ```json
 {
-  "extends": ["nake-app/legacy"]
+  "extends": ["@pubean/legacy"]
 }
 ```
 
@@ -43,7 +43,7 @@ For vanilla javascript project with no framework.
 
 ```json
 {
-  "extends": ["nake-app/base"]
+  "extends": ["@pubean/base"]
 }
 ```
 
@@ -53,7 +53,7 @@ For react project, the same as default config.
 
 ```json
 {
-  "extends": ["nake-app/react"]
+  "extends": ["@pubean/react"]
 }
 ```
 
@@ -63,7 +63,7 @@ For wechat miniProgram project.
 
 ```json
 {
-  "extends": ["nake-app/wxapp"]
+  "extends": ["@pubean/wxapp"]
 }
 ```
 
@@ -96,7 +96,7 @@ yarn add whatwg-fetch es6-promise
 
 ```json
 {
-  "extends": ["nake-app"],
+  "extends": ["@pubean"],
   "settings": {
     "polyfills": ["fetch", "promises"]
   }
@@ -114,7 +114,7 @@ I like moving `.eslintrc` and `.eslintignore` file from project root to `package
     "eslint:fix": "eslint src --ext .js --ignore-path .gitignore --fix; exit 0"
   },
   "eslintConfig": {
-    "extends": ["nake-app"],
+    "extends": ["@pubean"],
     "settings": {
       "polyfills": ["fetch", "promises"]
     }

@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-nake-app",
+  "name": "@pubean/eslint-config",
   "version": "0.2.8",
-  "description": "Naked eslint shareable config for web app",
+  "description": "ESLint shareable config for Pubean Inc.",
   "main": "index.js",
   "license": "MIT",
-  "repository": "laozhu/eslint-config-nake-app",
-  "author": "Richie Zhu <laozhu.me@gmail.com> (https://laozhu.me)",
+  "repository": "pubean/eslint-config",
+  "author": "Pubean Inc. <hello@pubean.com> (https://pubean.com)",
   "keywords": [
     "eslint",
     "eslintconfig",
