@@ -4,7 +4,15 @@ const rulesReact = require('./rules/react');
 
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb', 'prettier', 'prettier/react', 'plugin:compat/recommended'],
+  extends: [
+    'airbnb',
+    'prettier',
+    'prettier/react',
+    'plugin:promise/recommended',
+    'plugin:compat/recommended',
+    'plugin:jest/recommended',
+    'plugin:security/recommended',
+  ],
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',

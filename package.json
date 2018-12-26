@@ -1,6 +1,6 @@
 {
   "name": "@pubean/eslint-config",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "ESLint shareable config for Pubean Inc.",
   "main": "index.js",
   "license": "MIT",
@@ -25,8 +25,11 @@
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-compat": "^2.6.3",
     "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
     "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-security": "^1.4.0",
     "prettier": "^1.15.3"
   },
   "peerDependencies": {
@@ -34,8 +37,11 @@
     "eslint": "^5.10.0",
     "eslint-plugin-compat": "^2.6.3",
     "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
     "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-security": "^1.4.0",
     "prettier": "^1.15.3"
   }
 }

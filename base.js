@@ -3,7 +3,14 @@ const rulesWeb = require('./rules/web');
 
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb-base', 'prettier', 'plugin:compat/recommended'],
+  extends: [
+    'airbnb-base',
+    'prettier',
+    'plugin:promise/recommended',
+    'plugin:compat/recommended',
+    'plugin:jest/recommended',
+    'plugin:security/recommended',
+  ],
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',

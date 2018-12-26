@@ -3,7 +3,7 @@ const rulesWxapp = require('./rules/wxapp');
 
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb-base', 'prettier'],
+  extends: ['airbnb-base', 'prettier', 'plugin:security/recommended'],
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
