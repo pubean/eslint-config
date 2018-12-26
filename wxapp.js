@@ -21,4 +21,5 @@ module.exports = {
     getCurrentPages: true,
   },
   rules: { ...rules, ...rulesWxapp },
+  plugins: ['security'],
 };

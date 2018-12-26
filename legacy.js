@@ -5,4 +5,5 @@ module.exports = {
   extends: ['prettier', 'plugin:compat/recommended', 'plugin:security/recommended'],
   env: { browser: true },
   rules: { ...rules, ...rulesWeb },
+  plugins: ['security'],
 };

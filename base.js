@@ -21,4 +21,5 @@ module.exports = {
     serviceworker: true,
   },
   rules: { ...rules, ...rulesWeb },
+  plugins: ['promise', 'jest', 'security'],
 };

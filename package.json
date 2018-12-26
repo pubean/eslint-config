@@ -1,6 +1,6 @@
 {
   "name": "@pubean/eslint-config",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "description": "ESLint shareable config for Pubean Inc.",
   "main": "index.js",
   "license": "MIT",
