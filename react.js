@@ -3,6 +3,7 @@ const rulesWeb = require('./rules/web');
 const rulesReact = require('./rules/react');
 
 module.exports = {
+  parser: 'babel-eslint',
   extends: ['airbnb', 'prettier', 'prettier/react', 'plugin:compat/recommended'],
   parserOptions: {
     ecmaVersion: 2019,
