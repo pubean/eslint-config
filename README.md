@@ -9,9 +9,13 @@ This ESLint config is extended from both [airbnb](https://github.com/airbnb/java
 ```bash
 # Install with npx
 $ npx install-peerdeps --dev @pubean/eslint-config
+
+# Install with yarn
+$ yarn add --dev @pubean/eslint-config
+$ yarn add --dev babel-eslint eslint prettier eslint-plugin-compat eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-security
 ```
 
-_Use npx to install peerdeps automatically._
+_Use npx to install peerdeps automatically or install peerDependencies with npm/yarn manually._
 
 ## Usage
 
@@ -69,6 +73,20 @@ For wechat miniProgram project.
 
 _This environment can't support browser compatibility linter_
 
+### Node
+
+For Node.js project.
+
+```json
+{
+  "extends": ["@pubean/node"]
+}
+```
+
+_It recommends a use of [the "engines" field of package.json](https://docs.npmjs.com/files/package.json#engines). The "engines" field is used by `node/no-unsupported-features/*` rules._
+
+_This environment can't support browser compatibility linter_
+
 ## Browser compatibility linter
 
 First, add browsers that we support in your `package.json` or config file that [browserslist](https://github.com/browserslist/browserslist) supports.
@@ -121,6 +139,12 @@ I like moving `.eslintrc` and `.eslintignore` file from project root to `package
   }
 }
 ```
+
+## Bonus
+
+- Best practices for promises with [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
+- Jest testing linter with [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
+- Security linter with [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
 
 ## Extend
 
